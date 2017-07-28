@@ -15,6 +15,7 @@
 		8398973C1F2B157A00A29778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8398973A1F2B157A00A29778 /* LaunchScreen.storyboard */; };
 		839897471F2B157A00A29778 /* SceneKit_19__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839897461F2B157A00A29778 /* SceneKit_19__Tests.m */; };
 		839897521F2B157A00A29778 /* SceneKit_19__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839897511F2B157A00A29778 /* SceneKit_19__UITests.m */; };
+		839897601F2B170E00A29778 /* box2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8398975F1F2B170E00A29778 /* box2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8398974D1F2B157A00A29778 /* SceneKit-19滤镜UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SceneKit-19滤镜UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		839897511F2B157A00A29778 /* SceneKit_19__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneKit_19__UITests.m; sourceTree = "<group>"; };
 		839897531F2B157A00A29778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8398975F1F2B170E00A29778 /* box2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = box2.jpg; path = "SceneKit-19滤镜/box2.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				8398972B1F2B157A00A29778 /* SceneKit-19滤镜 */,
+				8398975F1F2B170E00A29778 /* box2.jpg */,
 				839897451F2B157A00A29778 /* SceneKit-19滤镜Tests */,
 				839897501F2B157A00A29778 /* SceneKit-19滤镜UITests */,
 				8398972A1F2B157A00A29778 /* Products */,
@@ -207,7 +210,8 @@
 				TargetAttributes = {
 					839897281F2B157A00A29778 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = X585696T4B;
+						ProvisioningStyle = Manual;
 					};
 					839897411F2B157A00A29778 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -248,6 +252,7 @@
 			files = (
 				8398973C1F2B157A00A29778 /* LaunchScreen.storyboard in Resources */,
 				839897391F2B157A00A29778 /* Assets.xcassets in Resources */,
+				839897601F2B170E00A29778 /* box2.jpg in Resources */,
 				839897371F2B157A00A29778 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,10 +429,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X585696T4B;
 				INFOPLIST_FILE = "SceneKit-19滤镜/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-19--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "34779f32-976c-48a9-8576-55b1d8bc4e7b";
+				PROVISIONING_PROFILE_SPECIFIER = TestApp;
 			};
 			name = Debug;
 		};
@@ -435,10 +443,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X585696T4B;
 				INFOPLIST_FILE = "SceneKit-19滤镜/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-19--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "34779f32-976c-48a9-8576-55b1d8bc4e7b";
+				PROVISIONING_PROFILE_SPECIFIER = TestApp;
 			};
 			name = Release;
 		};
