@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8398972E1F2B157A00A29778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8398972D1F2B157A00A29778 /* main.m */; };
+		839897311F2B157A00A29778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 839897301F2B157A00A29778 /* AppDelegate.m */; };
+		839897341F2B157A00A29778 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839897331F2B157A00A29778 /* ViewController.m */; };
+		839897371F2B157A00A29778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839897351F2B157A00A29778 /* Main.storyboard */; };
+		839897391F2B157A00A29778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839897381F2B157A00A29778 /* Assets.xcassets */; };
+		8398973C1F2B157A00A29778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8398973A1F2B157A00A29778 /* LaunchScreen.storyboard */; };
+		839897471F2B157A00A29778 /* SceneKit_19__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839897461F2B157A00A29778 /* SceneKit_19__Tests.m */; };
+		839897521F2B157A00A29778 /* SceneKit_19__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839897511F2B157A00A29778 /* SceneKit_19__UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		839897431F2B157A00A29778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839897211F2B157A00A29778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839897281F2B157A00A29778;
+			remoteInfo = "SceneKit-19滤镜";
+		};
+		8398974E1F2B157A00A29778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839897211F2B157A00A29778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839897281F2B157A00A29778;
+			remoteInfo = "SceneKit-19滤镜";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		839897291F2B157A00A29778 /* SceneKit-19滤镜.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SceneKit-19滤镜.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8398972D1F2B157A00A29778 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8398972F1F2B157A00A29778 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		839897301F2B157A00A29778 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		839897321F2B157A00A29778 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		839897331F2B157A00A29778 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		839897361F2B157A00A29778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		839897381F2B157A00A29778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8398973B1F2B157A00A29778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8398973D1F2B157A00A29778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839897421F2B157A00A29778 /* SceneKit-19滤镜Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SceneKit-19滤镜Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		839897461F2B157A00A29778 /* SceneKit_19__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneKit_19__Tests.m; sourceTree = "<group>"; };
+		839897481F2B157A00A29778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8398974D1F2B157A00A29778 /* SceneKit-19滤镜UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SceneKit-19滤镜UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		839897511F2B157A00A29778 /* SceneKit_19__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneKit_19__UITests.m; sourceTree = "<group>"; };
+		839897531F2B157A00A29778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839897261F2B157A00A29778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8398973F1F2B157A00A29778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8398974A1F2B157A00A29778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839897201F2B157A00A29778 = {
+			isa = PBXGroup;
+			children = (
+				8398972B1F2B157A00A29778 /* SceneKit-19滤镜 */,
+				839897451F2B157A00A29778 /* SceneKit-19滤镜Tests */,
+				839897501F2B157A00A29778 /* SceneKit-19滤镜UITests */,
+				8398972A1F2B157A00A29778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8398972A1F2B157A00A29778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839897291F2B157A00A29778 /* SceneKit-19滤镜.app */,
+				839897421F2B157A00A29778 /* SceneKit-19滤镜Tests.xctest */,
+				8398974D1F2B157A00A29778 /* SceneKit-19滤镜UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8398972B1F2B157A00A29778 /* SceneKit-19滤镜 */ = {
+			isa = PBXGroup;
+			children = (
+				8398972F1F2B157A00A29778 /* AppDelegate.h */,
+				839897301F2B157A00A29778 /* AppDelegate.m */,
+				839897321F2B157A00A29778 /* ViewController.h */,
+				839897331F2B157A00A29778 /* ViewController.m */,
+				839897351F2B157A00A29778 /* Main.storyboard */,
+				839897381F2B157A00A29778 /* Assets.xcassets */,
+				8398973A1F2B157A00A29778 /* LaunchScreen.storyboard */,
+				8398973D1F2B157A00A29778 /* Info.plist */,
+				8398972C1F2B157A00A29778 /* Supporting Files */,
+			);
+			path = "SceneKit-19滤镜";
+			sourceTree = "<group>";
+		};
+		8398972C1F2B157A00A29778 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8398972D1F2B157A00A29778 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		839897451F2B157A00A29778 /* SceneKit-19滤镜Tests */ = {
+			isa = PBXGroup;
+			children = (
+				839897461F2B157A00A29778 /* SceneKit_19__Tests.m */,
+				839897481F2B157A00A29778 /* Info.plist */,
+			);
+			path = "SceneKit-19滤镜Tests";
+			sourceTree = "<group>";
+		};
+		839897501F2B157A00A29778 /* SceneKit-19滤镜UITests */ = {
+			isa = PBXGroup;
+			children = (
+				839897511F2B157A00A29778 /* SceneKit_19__UITests.m */,
+				839897531F2B157A00A29778 /* Info.plist */,
+			);
+			path = "SceneKit-19滤镜UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839897281F2B157A00A29778 /* SceneKit-19滤镜 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839897561F2B157A00A29778 /* Build configuration list for PBXNativeTarget "SceneKit-19滤镜" */;
+			buildPhases = (
+				839897251F2B157A00A29778 /* Sources */,
+				839897261F2B157A00A29778 /* Frameworks */,
+				839897271F2B157A00A29778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SceneKit-19滤镜";
+			productName = "SceneKit-19滤镜";
+			productReference = 839897291F2B157A00A29778 /* SceneKit-19滤镜.app */;
+			productType = "com.apple.product-type.application";
+		};
+		839897411F2B157A00A29778 /* SceneKit-19滤镜Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839897591F2B157A00A29778 /* Build configuration list for PBXNativeTarget "SceneKit-19滤镜Tests" */;
+			buildPhases = (
+				8398973E1F2B157A00A29778 /* Sources */,
+				8398973F1F2B157A00A29778 /* Frameworks */,
+				839897401F2B157A00A29778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839897441F2B157A00A29778 /* PBXTargetDependency */,
+			);
+			name = "SceneKit-19滤镜Tests";
+			productName = "SceneKit-19滤镜Tests";
+			productReference = 839897421F2B157A00A29778 /* SceneKit-19滤镜Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8398974C1F2B157A00A29778 /* SceneKit-19滤镜UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8398975C1F2B157A00A29778 /* Build configuration list for PBXNativeTarget "SceneKit-19滤镜UITests" */;
+			buildPhases = (
+				839897491F2B157A00A29778 /* Sources */,
+				8398974A1F2B157A00A29778 /* Frameworks */,
+				8398974B1F2B157A00A29778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8398974F1F2B157A00A29778 /* PBXTargetDependency */,
+			);
+			name = "SceneKit-19滤镜UITests";
+			productName = "SceneKit-19滤镜UITests";
+			productReference = 8398974D1F2B157A00A29778 /* SceneKit-19滤镜UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839897211F2B157A00A29778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ShiWen;
+				TargetAttributes = {
+					839897281F2B157A00A29778 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					839897411F2B157A00A29778 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 839897281F2B157A00A29778;
+					};
+					8398974C1F2B157A00A29778 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 839897281F2B157A00A29778;
+					};
+				};
+			};
+			buildConfigurationList = 839897241F2B157A00A29778 /* Build configuration list for PBXProject "SceneKit-19滤镜" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839897201F2B157A00A29778;
+			productRefGroup = 8398972A1F2B157A00A29778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839897281F2B157A00A29778 /* SceneKit-19滤镜 */,
+				839897411F2B157A00A29778 /* SceneKit-19滤镜Tests */,
+				8398974C1F2B157A00A29778 /* SceneKit-19滤镜UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839897271F2B157A00A29778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8398973C1F2B157A00A29778 /* LaunchScreen.storyboard in Resources */,
+				839897391F2B157A00A29778 /* Assets.xcassets in Resources */,
+				839897371F2B157A00A29778 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839897401F2B157A00A29778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8398974B1F2B157A00A29778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839897251F2B157A00A29778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839897341F2B157A00A29778 /* ViewController.m in Sources */,
+				839897311F2B157A00A29778 /* AppDelegate.m in Sources */,
+				8398972E1F2B157A00A29778 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8398973E1F2B157A00A29778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839897471F2B157A00A29778 /* SceneKit_19__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839897491F2B157A00A29778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839897521F2B157A00A29778 /* SceneKit_19__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		839897441F2B157A00A29778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839897281F2B157A00A29778 /* SceneKit-19滤镜 */;
+			targetProxy = 839897431F2B157A00A29778 /* PBXContainerItemProxy */;
+		};
+		8398974F1F2B157A00A29778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839897281F2B157A00A29778 /* SceneKit-19滤镜 */;
+			targetProxy = 8398974E1F2B157A00A29778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		839897351F2B157A00A29778 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839897361F2B157A00A29778 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8398973A1F2B157A00A29778 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8398973B1F2B157A00A29778 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		839897541F2B157A00A29778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		839897551F2B157A00A29778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839897571F2B157A00A29778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SceneKit-19滤镜/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-19--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		839897581F2B157A00A29778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SceneKit-19滤镜/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-19--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8398975A1F2B157A00A29778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SceneKit-19滤镜Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-19--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SceneKit-19滤镜.app/SceneKit-19滤镜";
+			};
+			name = Debug;
+		};
+		8398975B1F2B157A00A29778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SceneKit-19滤镜Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-19--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SceneKit-19滤镜.app/SceneKit-19滤镜";
+			};
+			name = Release;
+		};
+		8398975D1F2B157A00A29778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SceneKit-19滤镜UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-19--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SceneKit-19滤镜";
+			};
+			name = Debug;
+		};
+		8398975E1F2B157A00A29778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SceneKit-19滤镜UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-19--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SceneKit-19滤镜";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839897241F2B157A00A29778 /* Build configuration list for PBXProject "SceneKit-19滤镜" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839897541F2B157A00A29778 /* Debug */,
+				839897551F2B157A00A29778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839897561F2B157A00A29778 /* Build configuration list for PBXNativeTarget "SceneKit-19滤镜" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839897571F2B157A00A29778 /* Debug */,
+				839897581F2B157A00A29778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		839897591F2B157A00A29778 /* Build configuration list for PBXNativeTarget "SceneKit-19滤镜Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8398975A1F2B157A00A29778 /* Debug */,
+				8398975B1F2B157A00A29778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8398975C1F2B157A00A29778 /* Build configuration list for PBXNativeTarget "SceneKit-19滤镜UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8398975D1F2B157A00A29778 /* Debug */,
+				8398975E1F2B157A00A29778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839897211F2B157A00A29778 /* Project object */;
+}
